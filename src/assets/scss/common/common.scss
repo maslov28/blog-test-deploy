@@ -1,0 +1,44 @@
+body {
+  color: $text-color-dark;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: $light-color;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.main-color {
+  background-color: $main-color;
+  color: $text-color-light;
+  transition: all ease .2s;
+}
+
+.main-color:hover {
+  background-color: $light-color;
+  color: $text-color-dark;
+}
+
+.light-color {
+  background-color: $light-color;
+  color: $text-color-dark;
+  transition: all ease .2s;
+}
+
+.light-color:hover {
+  box-shadow: 0 5px 10px 0 $text-color-dark;
+  background-color: $main-color;
+  color: $text-color-light;
+}
+
+.highlight {
+  color: $main-color;
+}
+
+a {
+  color: $text-color-light
+}
